@@ -9,7 +9,7 @@ export class RacingServicesService {
     getData ()
    {
 
-    return this.http.get('https://jsonplaceholder.typicode.com/photos').map((res) => res.json())
+    return this.http.get('http://127.0.0.1:8000/applicant').map((res) => res.json())
 
    }
   }
